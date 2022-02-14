@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                checkout scm
+
+                sh 'mvn install pom.xml'
+               
+
+echo "New pipeline to build by Vaishnavi in firstjava repo"
+ls -la'''
+
+                
+
+            }
+        }
+    }
+}
+© 2022 GitHub, Inc.
