@@ -5,7 +5,7 @@ pipeline {
             steps {
                 checkout scm
 
-                sh 'mvn install pom.xml'
+                sh 'mvn clean package firstspringboot/pom.xml'
                
 
 echo "New pipeline to build by Vaishnavi in firstjava repo"
